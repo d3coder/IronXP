@@ -1,0 +1,40 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application]
+"MaxSize"=dword:01000000
+"RestrictGuestAccess"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Security]
+"MaxSize"=dword:05000000
+"RestrictGuestAccess"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
+"restrictanonymous"=dword:00000001
+"restrictanonymoussam"=dword:00000001
+"limitblankpassworduse"=dword:00000001
+"everyoneincludesanonymous"=dword:00000000
+"forceguest"=dword:00000000
+"lmcompatibilitylevel"=dword:00000003
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"allocatedasd"="2"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Driver Signing]
+"Policy"=hex:01
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanworkstation\parameters]
+"enableplaintextpassword"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters]
+"autodisconnect"=dword:0000000f
+"enableforcedlogoff"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ldap]
+"ldapclientintegrity"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000ff
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000ff
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000ff
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Cdrom]
+"AutoRun"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"DisableIPSourceRouting"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters]
+"UseBasicAuth"=dword:00000000
+[HKLM\System\CurrentControlSet\Services\Tcpip\Parameters]
+"EnableDeadGWDetect"=dword:00000000
